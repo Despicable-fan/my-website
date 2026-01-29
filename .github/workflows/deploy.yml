@@ -44,6 +44,13 @@ jobs:
         with:
           path: './dist'
       
+      - name: Delete nextjs.yml (if exists)
+        run: |
+          if [ -f .github/workflows/nextjs.yml ]; then
+            rm .github/workflows/nextjs.yml
+          fi
+        shell: bash
+      
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
