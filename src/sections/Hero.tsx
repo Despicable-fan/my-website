@@ -47,7 +47,7 @@ const Hero = () => {
         style={{ willChange: 'transform' }}
       >
         <img
-          src="/images/hero-bg.jpg"
+          src="./images/hero-bg.jpg"
           alt="Spa Treatment"
           className="w-full h-full object-cover"
         />

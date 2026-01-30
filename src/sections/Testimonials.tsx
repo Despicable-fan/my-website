@@ -13,25 +13,25 @@ const testimonials: Testimonial[] = [
     quote: '光韵的水疗体验简直 transformative。我每周都来，离开时总是感觉焕然一新。',
     author: '李雪婷',
     position: '市场总监',
-    avatar: '/images/avatar-1.jpg',
+    avatar: './images/avatar-1.jpg',
   },
   {
     quote: '这里的细节关注和宁静氛围无与伦比。这是我对自己的小小犒赏。',
     author: '王雅琳',
     position: '企业家',
-    avatar: '/images/avatar-2.jpg',
+    avatar: './images/avatar-2.jpg',
   },
   {
     quote: '我尝试过很多水疗中心，但光韵对整体健康的执着让我成为忠实客户。',
     author: '陈美玲',
     position: '瑜伽教练',
-    avatar: '/images/avatar-3.jpg',
+    avatar: './images/avatar-3.jpg',
   },
   {
     quote: '面部护理让我感觉年轻了十岁。工作人员专业且体贴。',
     author: '张婷婷',
     position: '室内设计师',
-    avatar: '/images/avatar-4.jpg',
+    avatar: './images/avatar-4.jpg',
   },
 ];
 

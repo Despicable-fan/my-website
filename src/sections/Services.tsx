@@ -19,7 +19,7 @@ const services: Service[] = [
       { name: '深层组织', desc: '针对性缓解' },
       { name: '热石疗法', desc: '舒缓温暖' },
     ],
-    image: '/images/service-massage.jpg',
+    image: './images/service-massage.jpg',
   },
   {
     id: 'facial',
@@ -30,7 +30,7 @@ const services: Service[] = [
       { name: '抗衰老护理', desc: '年轻肌肤' },
       { name: '祛痘护理', desc: '清透肤色' },
     ],
-    image: '/images/service-facial.jpg',
+    image: './images/service-facial.jpg',
   },
   {
     id: 'body',
@@ -41,7 +41,7 @@ const services: Service[] = [
       { name: '身体磨砂', desc: '去角质与柔滑' },
       { name: '瘦身护理', desc: '塑形与紧致' },
     ],
-    image: '/images/service-body.jpg',
+    image: './images/service-body.jpg',
   },
   {
     id: 'aroma',
@@ -52,7 +52,7 @@ const services: Service[] = [
       { name: '吸入疗法', desc: '呼吸健康' },
       { name: '定制混合', desc: '个性化护理' },
     ],
-    image: '/images/service-aroma.jpg',
+    image: './images/service-aroma.jpg',
   },
 ];
 
