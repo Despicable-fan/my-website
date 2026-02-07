@@ -29,10 +29,10 @@ const HomePage = () => {
   ];
 
   const quickLinks = [
-    { title: '按摩疗法', path: '/services', image: '/images/service-massage.jpg' },
-    { title: '面部护理', path: '/services', image: '/images/service-facial.jpg' },
-    { title: '身体护理', path: '/services', image: '/images/service-body.jpg' },
-    { title: '芳香疗法', path: '/services', image: '/images/service-aroma.jpg' },
+    { title: '按摩疗法', path: '/services', image: './images/service-massage.jpg' },
+    { title: '面部护理', path: '/services', image: './images/service-facial.jpg' },
+    { title: '身体护理', path: '/services', image: './images/service-body.jpg' },
+    { title: '芳香疗法', path: '/services', image: './images/service-aroma.jpg' },
   ];
 
   return (

@@ -32,25 +32,25 @@ const AboutPage = () => {
     {
       name: '林雅婷',
       position: '首席治疗师',
-      image: 'images/avatar-1.jpg',
+      image: '.images/avatar-1.jpg',
       desc: '15年水疗经验，擅长深层组织按摩',
     },
     {
       name: '陈美玲',
       position: '面部护理专家',
-      image: 'images/avatar-2.jpg',
+      image: '.images/avatar-2.jpg',
       desc: '专注抗衰老护理，拥有多项国际认证',
     },
     {
       name: '王雪琴',
       position: '芳香疗法师',
-      image: 'images/avatar-3.jpg',
+      image: '.images/avatar-3.jpg',
       desc: '精油调配专家，擅长压力缓解疗程',
     },
     {
       name: '李芳芳',
       position: '身体护理师',
-      image: 'images/avatar-4.jpg',
+      image: '.images/avatar-4.jpg',
       desc: '专业瘦身塑形，帮助您重塑自信',
     },
   ];

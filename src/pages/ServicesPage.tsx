@@ -27,7 +27,7 @@ const services: Service[] = [
     benefits: ['缓解肌肉紧张', '改善血液循环', '促进深度睡眠', '减轻压力焦虑'],
     duration: '60-120分钟',
     price: '¥299起',
-    image: '/images/service-massage.jpg',
+    image: './images/service-massage.jpg',
     icon: Heart,
   },
   {
@@ -40,7 +40,7 @@ const services: Service[] = [
     benefits: ['改善肤质', '减少细纹', '提亮肤色', '紧致肌肤'],
     duration: '60-90分钟',
     price: '¥399起',
-    image: '/images/service-facial.jpg',
+    image: './images/service-facial.jpg',
     icon: Sparkles,
   },
   {
@@ -53,7 +53,7 @@ const services: Service[] = [
     benefits: ['去除角质', '排毒养颜', '紧致肌肤', '改善体态'],
     duration: '60-120分钟',
     price: '¥499起',
-    image: '/images/service-body.jpg',
+    image: './images/service-body.jpg',
     icon: Droplets,
   },
   {
@@ -66,7 +66,7 @@ const services: Service[] = [
     benefits: ['舒缓压力', '改善睡眠', '提升免疫', '平衡情绪'],
     duration: '60-90分钟',
     price: '¥359起',
-    image: '/images/service-aroma.jpg',
+    image: './images/service-aroma.jpg',
     icon: Wind,
   },
 ];
