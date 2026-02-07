@@ -12,25 +12,25 @@ const portfolioItems: PortfolioItem[] = [
   {
     title: '放松按摩',
     category: '按摩',
-    image: '/images/portfolio-massage.jpg',
+    image: './images/portfolio-massage.jpg',
     size: 'tall',
   },
   {
     title: '补水面部护理',
     category: '面部护理',
-    image: '/images/portfolio-facial.jpg',
+    image: './images/portfolio-facial.jpg',
     size: 'wide',
   },
   {
     title: '芳香疗法',
     category: '芳香疗法',
-    image: '/images/portfolio-aroma.jpg',
+    image: './images/portfolio-aroma.jpg',
     size: 'tall',
   },
   {
     title: '身体裹敷',
     category: '身体护理',
-    image: '/images/portfolio-body.jpg',
+    image: './images/portfolio-body.jpg',
     size: 'wide',
   },
 ];
