@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+﻿import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Check, Star, ArrowRight, HelpCircle } from 'lucide-react';
 
@@ -111,7 +111,7 @@ const PricingPage = () => {
       {/* Hero Banner */}
       <section className="relative h-[40vh] min-h-[300px] overflow-hidden">
         <img
-          src="images/service-facial.jpg"
+          src="./images/service-facial.jpg"
           alt="Pricing"
           className="w-full h-full object-cover"
         />
@@ -283,7 +283,7 @@ const PricingPage = () => {
             <div className="relative">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="images/portfolio-aroma.jpg"
+                  src="./images/portfolio-aroma.jpg"
                   alt="Gift Card"
                   className="w-full h-full object-cover"
                 />
@@ -359,3 +359,4 @@ const PricingPage = () => {
 };
 
 export default PricingPage;
+

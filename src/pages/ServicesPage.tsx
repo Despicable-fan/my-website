@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Clock, Check, ArrowRight, Sparkles, Droplets, Wind, Heart } from 'lucide-react';
 
@@ -79,7 +79,7 @@ const ServicesPage = () => {
       {/* Hero Banner */}
       <section className="relative h-[40vh] min-h-[300px] overflow-hidden">
         <img
-          src="images/hero-bg.jpg"
+          src="./images/hero-bg.jpg"
           alt="Services"
           className="w-full h-full object-cover"
         />
@@ -294,3 +294,4 @@ const ServicesPage = () => {
 };
 
 export default ServicesPage;
+

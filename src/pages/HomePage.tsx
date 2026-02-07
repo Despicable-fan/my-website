@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+﻿import { useEffect, useState } from 'react';
 import { ArrowRight, Sparkles, Heart, Award } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -45,7 +45,7 @@ const HomePage = () => {
           }`}
         >
           <img
-            src="images/hero-bg.jpg"
+            src="./images/hero-bg.jpg"
             alt="Spa Treatment"
             className="w-full h-full object-cover"
           />
@@ -175,7 +175,7 @@ const HomePage = () => {
       <section className="py-24 relative overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="images/about.jpg"
+            src="./images/about.jpg"
             alt="Background"
             className="w-full h-full object-cover"
           />
@@ -210,3 +210,4 @@ const HomePage = () => {
 };
 
 export default HomePage;
+

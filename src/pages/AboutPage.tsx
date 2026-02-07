@@ -1,4 +1,4 @@
-import { Award, Users, Clock, Heart, Check } from 'lucide-react';
+﻿import { Award, Users, Clock, Heart, Check } from 'lucide-react';
 
 const AboutPage = () => {
 
@@ -60,7 +60,7 @@ const AboutPage = () => {
       {/* Hero Banner */}
       <section className="relative h-[50vh] min-h-[400px] overflow-hidden">
         <img
-          src="images/about.jpg"
+          src="./images/about.jpg"
           alt="About Us"
           className="w-full h-full object-cover"
         />
@@ -118,7 +118,7 @@ const AboutPage = () => {
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="images/hero-bg.jpg"
+                  src="./images/hero-bg.jpg"
                   alt="Our Spa"
                   className="w-full h-[500px] object-cover"
                 />
@@ -212,21 +212,21 @@ const AboutPage = () => {
           <div className="grid md:grid-cols-3 gap-6">
             <div className="rounded-2xl overflow-hidden aspect-[4/3]">
               <img
-                src="images/portfolio-massage.jpg"
+                src="./images/portfolio-massage.jpg"
                 alt="Spa Room"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="rounded-2xl overflow-hidden aspect-[4/3]">
               <img
-                src="images/portfolio-facial.jpg"
+                src="./images/portfolio-facial.jpg"
                 alt="Treatment Room"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="rounded-2xl overflow-hidden aspect-[4/3]">
               <img
-                src="images/portfolio-aroma.jpg"
+                src="./images/portfolio-aroma.jpg"
                 alt="Relaxation Area"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
@@ -239,3 +239,4 @@ const AboutPage = () => {
 };
 
 export default AboutPage;
+

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+﻿import { useEffect, useRef, useState } from 'react';
 import { ArrowRight } from 'lucide-react';
 
 const About = () => {
@@ -75,7 +75,7 @@ const About = () => {
             >
               <div className="relative overflow-hidden rounded-2xl shadow-2xl">
                 <img
-                  src="images/about.jpg"
+                  src="./images/about.jpg"
                   alt="Spa Experience"
                   className="w-full h-[500px] lg:h-[600px] object-cover transition-transform duration-600 hover:scale-105"
                 />
@@ -199,3 +199,4 @@ const About = () => {
 };
 
 export default About;
+

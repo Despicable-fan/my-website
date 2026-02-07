@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+﻿import { useEffect, useRef, useState } from 'react';
 import { ArrowRight } from 'lucide-react';
 
 const Hero = () => {
@@ -47,7 +47,7 @@ const Hero = () => {
         style={{ willChange: 'transform' }}
       >
         <img
-          src="images/hero-bg.jpg"
+          src="./images/hero-bg.jpg"
           alt="Spa Treatment"
           className="w-full h-full object-cover"
         />
@@ -138,3 +138,4 @@ const Hero = () => {
 };
 
 export default Hero;
+

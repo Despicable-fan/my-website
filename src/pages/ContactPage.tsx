@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { MapPin, Phone, Mail, Clock, Send, CheckCircle } from 'lucide-react';
 
 const ContactPage = () => {
@@ -107,7 +107,7 @@ const ContactPage = () => {
       {/* Hero Banner */}
       <section className="relative h-[40vh] min-h-[300px] overflow-hidden">
         <img
-          src="images/about.jpg"
+          src="./images/about.jpg"
           alt="Contact"
           className="w-full h-full object-cover"
         />
@@ -363,3 +363,4 @@ const ContactPage = () => {
 };
 
 export default ContactPage;
+

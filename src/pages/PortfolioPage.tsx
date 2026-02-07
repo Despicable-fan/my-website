@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { X, ZoomIn } from 'lucide-react';
 
 interface PortfolioItem {
@@ -84,7 +84,7 @@ const PortfolioPage = () => {
       {/* Hero Banner */}
       <section className="relative h-[40vh] min-h-[300px] overflow-hidden">
         <img
-          src="images/portfolio-massage.jpg"
+          src="./images/portfolio-massage.jpg"
           alt="Portfolio"
           className="w-full h-full object-cover"
         />
@@ -278,3 +278,4 @@ const PortfolioPage = () => {
 };
 
 export default PortfolioPage;
+
